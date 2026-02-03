@@ -39,4 +39,4 @@ jobs:
       run: |
         aws lambda update-function-code \
           --function-name ${{ secrets.LAMBDA_FUNCTION_NAME }} \
-          --zip-file fileb://target/*.jar
+          --zip-file fileb://target/com.lamda-0.0.1-SNAPSHOT.jar
