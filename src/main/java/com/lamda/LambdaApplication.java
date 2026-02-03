@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LambdaApplication {
 
 	public static void main(String[] args) {
-		System.out.println("Lambda Handler");
+		System.out.println("Lambda Handler commit");
 		SpringApplication.run(LambdaApplication.class, args);
 	}
 
