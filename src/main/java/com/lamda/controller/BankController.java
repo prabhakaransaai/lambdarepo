@@ -12,7 +12,7 @@ public class BankController {
 	
 	@GetMapping("/getData")
 	public ResponseEntity<String> getData(){
-		return ResponseEntity.status(HttpStatus.OK).body("Lambda Succesfully Deployed");
+		return ResponseEntity.status(HttpStatus.OK).body("Lambda Succesfully Deployed and tested");
 	}
 
 }
